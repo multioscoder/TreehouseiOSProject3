@@ -12,6 +12,7 @@
 		463B100A1E92742800568CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463B10081E92742800568CAD /* Main.storyboard */; };
 		463B100C1E92742800568CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463B100B1E92742800568CAD /* Assets.xcassets */; };
 		463B100F1E92742800568CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463B100D1E92742800568CAD /* LaunchScreen.storyboard */; };
+		46F3968F1E9276B90033B79D /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F3968E1E9276B90033B79D /* Events.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		463B100B1E92742800568CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		463B100E1E92742800568CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		463B10101E92742800568CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F3968E1E9276B90033B79D /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		463B10031E92742800568CAD /* Project 3 */ = {
 			isa = PBXGroup;
 			children = (
+				46F3968E1E9276B90033B79D /* Events.swift */,
 				463B10041E92742800568CAD /* AppDelegate.swift */,
 				463B10061E92742800568CAD /* ViewController.swift */,
 				463B10081E92742800568CAD /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F3968F1E9276B90033B79D /* Events.swift in Sources */,
 				463B10071E92742800568CAD /* ViewController.swift in Sources */,
 				463B10051E92742800568CAD /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				463B10151E92742800568CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
