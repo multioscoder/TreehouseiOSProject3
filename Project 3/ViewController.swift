@@ -9,7 +9,10 @@
 import UIKit
 import GameplayKit
 
+
 class ViewController: UIViewController {
+
+    
     @IBOutlet weak var event1: UILabel!
     @IBOutlet weak var event2: UILabel!
     @IBOutlet weak var event3: UILabel!
@@ -29,8 +32,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var event4UpOutlet: UIButton!
     @IBOutlet weak var finalScore: UILabel!
     @IBOutlet weak var finalScoreLabel: UILabel!
-
-
 
     var currentScore = 0
     var currentRound = 1
@@ -74,7 +75,6 @@ class ViewController: UIViewController {
         finalScore.isHidden = true
         finalScoreLabel.isHidden = true
         
-        
     }
     
 
@@ -101,7 +101,6 @@ class ViewController: UIViewController {
         
         hiddenYear1.text = event2CurrentYearForEvent1Down
         hiddenYear2.text = event1CurrentYearForEvent1Down
-        
         
     }
         
